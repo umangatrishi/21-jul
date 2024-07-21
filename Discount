@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+int t;
+cin>>t;
+while(t--){
+    int price=100;
+    int discount;
+    cin>>discount;
+    std::cout << price-discount*100/price << std::endl;
+}
+
+}
